@@ -1,11 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header class="superior">
+        <img id="logo" src="https://riwi.io/wp-content/uploads/2023/07/Fondo-claro-logo.png" alt="Logo riwi">
+
+        <h1>Ruta de capacitacion</h1>
+    </header>
+
+    <main style="padding-top: 100px;">
+    <article class="pos">
+       <button class="button"> <a class="wpp" href="paypal.com"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+      </svg> Chat</a></button>
+    </article>
+
+        <h2>Etapa basica</h2>
+        <section class="container fondo">
+            <article class="lenguaje">
+                <h3>Python</h3>
+                <div class="dentro">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png"
+                        alt="Logo python">
+                    <p>Python es un lenguaje de alto nivel de programación interpretado cuya filosofía hace hincapié en
+                        la
+                        legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta
+                        parcialmente la orientación a objetos, programación imperativa y, en menor medida, programación
+                        funcional.</p>
+                </div>
+            </article>
+
+            <article class="lenguaje">
+                <h3>Html</h3>
+                <div class="dentro">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
+                        alt="Logo html">
+                    <p>HTML, acrónimo en inglés de HyperText Markup Language, hace referencia al lenguaje de marcado
+                        utilizado en la creación de páginas web. Este estándar que sirve de referencia del software que
+                        interactúa con la elaboración de páginas web en sus diferentes versiones.</p>
+                </div>
+            </article>
+
+            <article class="lenguaje">
+                <h3>Css</h3>
+                <div class="dentro">
+                    <img src="data:image/png;base64,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"
+                        alt="Logo css">
+                    <p>CSS, en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y
+                        crear la presentación de un documento estructurado escrito en un lenguaje de marcado.​</p>
+                </div>
+            </article>
+
+            <article class="lenguaje">
+                <h3>JavaScript</h3>
+                <div class="dentro">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+                        alt="Logo JavaScript">
+                    <p>JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se
+                        define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y
+                        dinámico.</p>
+                </div>
+            </article>
+
+            <article class="lenguaje">
+                <h3>SQL</h3>
+                <div class="dentro">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Sql_database_shortcut_icon.png"
+                        alt="Logo SQL">
+                    <p>SQL es un lenguaje específico de dominio, diseñado para administrar, y recuperar información de
+                        sistemas de gestión de bases de datos relacionales.​</p>
+                </div>
+            </article>
+
+            <article class="lenguaje">
+                <h3>Mongo DB</h3>
+                <div class="dentro">
+                    <img src="https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png"
+                        alt="Logo Mongo DB">
+                    <p>MongoDB es un sistema de base de datos NoSQL, orientado a documentos y de código abierto. En
+                        lugar de guardar los datos en tablas, tal y como se hace en las bases de datos relacionales,
+                        MongoDB guarda ...</p>
+                </div>
+            </article>
+
+        </section>
+
+        <h2>Ruta avanzada</h2>
+
+        <section class="container">
+            <article class="lenguaje">
+                <h3>Java</h3>
+                <div class="dentro">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png"
+                        alt="Logo Java">
+                    <p>Java es un lenguaje de programación y una plataforma informática que fue comercializada por
+                        primera vez en 1995 por Sun Microsystems.</p>
+                </div>
+            </article>
+
+            <article class="lenguaje">
+                <h3>C#</h3>
+                <div class="dentro">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/C_Sharp_Logo_2023.svg" alt="Logo c#">
+                    <p>"C#" es un lenguaje de programación multiparadigma desarrollado y estandarizado por la empresa
+                        Microsoft como parte de su plataforma .NET, que después fue aprobado como un estándar por la
+                        ECMA e ISO. C# es uno de los lenguajes de programación diseñados para la infraestructura de
+                        lenguaje común.</p>
+                </div>
+            </article>
+
+            <article class="lenguaje">
+                <h3>PHP</h3>
+                <div class="dentro">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/800px-PHP-logo.svg.png"
+                        alt="Logo PHP">
+                    <p>PHP es un lenguaje de programación interpretado​ del lado del servidor y de uso general que se
+                        adapta especialmente al desarrollo web.​ Fue creado inicialmente por el programador
+                        danés-canadiense Rasmus Lerdorf en 1994.​ En la actualidad, la implementación de referencia de
+                        PHP es producida por The PHP Group.</p>
+                </div>
+            </article>
+
+            <article class="lenguaje">
+                <h3>Spring boot</h3>
+                <div class="dentro">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Spring_Framework_Logo_2018.svg/375px-Spring_Framework_Logo_2018.svg.png"
+                        alt="Logo Spring boot">
+                    <p>Spring es un framework para el desarrollo de aplicaciones y contenedor de inversión de control,
+                        de código abierto para la plataforma Java.2​</p>
+                </div>
+            </article>
+
+            <article class="lenguaje">
+                <h3>.Net</h3>
+                <div class="dentro">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/180px-Microsoft_.NET_logo.svg.png"
+                        alt="Logo .Net">
+                    <p>.NET es un framework de Microsoft que hace un énfasis en la transparencia de redes, con
+                        independencia de plataforma de hardware y que permite un rápido desarrollo de aplicaciones.</p>
+                </div>
+            </article>
+
+            <article class="lenguaje">
+                <h3>Larabel</h3>
+                <div class="dentro">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/300px-Laravel.svg.png"
+                        alt="Logo larabel">
+                    <p>Laravel es un framework de código abierto para desarrollar aplicaciones y servicios web con PHP
+                        5, PHP 7 y PHP 8. Su filosofía es desarrollar código PHP de forma elegante y simple, evitando el
+                        "código espagueti".</p>
+                </div>
+            </article>
+
+
+        </section>
+    </main>
+
+    <footer class="foot">
+      <p>Copyright © 2024 Riwi | Powered by jarenas1</p>
+        <div class="redes">
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+          </svg></a>
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+          </svg></a>
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg></a>
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+          </svg></a>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>
